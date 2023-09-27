@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+   
+}
+/* ==== icons ======== */
+.icons .f1{
+ background-color: rgb(16, 16, 155);
+ color: white;
+ padding: 10px;
+ /* border-radius: 3px;
+  */
+}
+
+.icons .tw1{
+    background-color: rgb(140, 227, 229);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    /* margin-right: 3px; */
+}
+.icons .int1{
+    background-color: rgb(235, 67, 55);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    /* margin-right: 3px; */
+}
+  
+.icons .lnk1{
+    background-color: rgb(247, 9, 60);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    /* margin-right: 3px; */
+}
+.elite::first-letter{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+.elite{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* =============== navbar =============== */
+   .navbar-nav li {
+    padding: 10px;
+    margin: 0 0 0 50px;
+   }
+   .nav-item button{
+    background-color: aqua;
+    padding: 0 40px 0 40px;
+    height: 40px;
+   }
+   
+   /* ===========cards=============== */
+
+   .row .col-md-3 h4{
+    text-align: center;
+    color: red;
+    
+   }
+   .row .col-md-3 p{
+    text-align: center;
+    font-weight: bold;
+   }
+   
+  .card img:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    transition: transform 0.3s ease-in; /* Add a smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+ .card-body a:hover {
+    background-color:black !important; /* Change to your desired background color */
+    color: #FFF !important; /* Change to your desired text color */
+}
+.card{
+    position: relative;
+}
+.div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.div p{
+    background-color: red;
+    color: white;
+    padding: 4px;
+    
+
+}
+.icon :hover{
+    transform: scale(1.05); /* Enlarge the card on hover */
+    transition: transform 0.3s ease-in; /* Add a smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+    background-color: blue;
+    color: white;
+}
+.icon i{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.col-md-3 p{
+    justify-content:flex-start;
+}
